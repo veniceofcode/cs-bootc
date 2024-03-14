@@ -1,4 +1,4 @@
-FROM quay.io/centos-bootc/centos-bootc:stream9
+FROM quay.io/centos-boot/fedora-bootc:eln
 # Add cs-user
 RUN useradd -ms /bin/bash cs-user
 # Copy crowdstrike artifacts to tmp location
